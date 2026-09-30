@@ -1,0 +1,16 @@
+{
+  "root": "data/dataset-resized",
+  "classes": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "manifest_sha256": "ac403da5d1f1cf6b895710682739b21e02b6b4cc52c34cc47dac1f54f31025e7",
+  "split_method": "20 stratified group folds: 14/3/3",
+  "near_duplicate_threshold": 4,
+  "n_images": 2521,
+  "n_excluded": 6
+}

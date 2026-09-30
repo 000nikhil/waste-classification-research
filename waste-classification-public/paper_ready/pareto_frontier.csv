@@ -1,0 +1,5 @@
+model,non_dominated
+custom_cnn,True
+efficientnetb0,True
+mobilenetv2,True
+resnet50,True

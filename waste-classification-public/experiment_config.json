@@ -1,0 +1,27 @@
+{
+  "models": [
+    "custom_cnn",
+    "mobilenetv2",
+    "resnet50",
+    "efficientnetb0"
+  ],
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "batch_size": 32,
+  "epochs": 30,
+  "head_epochs": 10,
+  "fine_epochs": 20,
+  "weights": "imagenet",
+  "smoke": false,
+  "manifest": "ac403da5d1f1cf6b895710682739b21e02b6b4cc52c34cc47dac1f54f31025e7",
+  "augmentation": {
+    "rotation": 0.05,
+    "zoom": 0.1,
+    "flip": "horizontal"
+  },
+  "unfreeze_last_layers": 30,
+  "source_sha256": "41fec2a9d8b9a05cd887fdce3f6214c8df247d1f2763cfe0c05151a3e5f85f6c"
+}
